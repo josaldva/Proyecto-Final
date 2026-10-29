@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.umg.controlgastos.MainActivity">
+    <item
+        android:id="@+id/action_presupuesto"
+        android:title="@string/cambiar_presupuesto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tema"
+        android:icon="@drawable/ic_tema"
+        android:title="@string/cambiar_tema"
+        app:showAsAction="always" />
+</menu>
